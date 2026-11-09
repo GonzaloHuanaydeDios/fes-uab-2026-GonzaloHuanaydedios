@@ -17,3 +17,6 @@ print(f"Total de paquets: {total_paquets}")
 mbps = float(input("Introdueix la velocitat en Mbps: "))
 mbytes = mbps / 8
 print(f"Velocitat equivalent: {mbytes} MB/s")
+
+
+

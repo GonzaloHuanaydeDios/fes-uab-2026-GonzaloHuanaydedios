@@ -108,4 +108,5 @@ contrasenya = input("Introdueix una contrasenya: ")
 if len(contrasenya) >= 8:
     print("Contrasenya vàlida")
 else:
-    print("Contrasenya no vàlida")
+    print("Contrasenya no vàlida")   
+

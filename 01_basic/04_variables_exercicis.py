@@ -9,11 +9,11 @@
 # utilitzant una f-string.
 
 nom_encaminador = "Router-noreste"
-ubicacio = "Sala de servidors"
-ports = 24
-ences = True
+ubicacion = "Sala de servidors"
+port = 24
+ence = True
 
-print(f"L'encaminador {nom_encaminador} està a {ubicacio}, té {ports} ports i el seu estat encès és {ences}.")
+print(f"L'encaminador {nom_encaminador} està a {ubicacion}, té {port} ports i el seu estat encès és {ence}.")
 
 # Exercici 2
 # Crea variables per desar els GB inclosos en un pla de dades mòbils
@@ -21,12 +21,13 @@ print(f"L'encaminador {nom_encaminador} està a {ubicacio}, té {ports} ports i 
 # Després, actualitza el consum amb un valor nou i torna a calcular
 # quants GB queden.
 
-gb_totals = 30
-gb_consumits = 15
+gbtotal = 30
+gbconsumits = 15
 
-gb_restants = gb_totals - gb_consumits
-print(f"GB restants: {gb_restants} GB")
+gbrestants = gbtotal - gbconsumits
+print(f"GB restants: {gbrestants} GB")
 
 gb_consumits = 200
-gb_restants = gb_totals - gb_consumits
-print(f"Després d'actualitzar, queden: {gb_restants} GB")
+gbrestants = gbtotal - gbconsumits
+print(f"Després d'actualitzar, queden: {gbrestants} GB") 
+

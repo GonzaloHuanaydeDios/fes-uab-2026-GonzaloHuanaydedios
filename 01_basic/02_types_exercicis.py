@@ -5,7 +5,7 @@
 
 # Exercici 1
 # Imprimeix el tipus del número 25
-print(type(25))
+print(type("25"))
 
 # Exercici 2
 # Imprimeix el tipus del text "Hola món"
